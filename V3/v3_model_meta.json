@@ -1,0 +1,30 @@
+{
+  "model_name": "Naive Bayes",
+  "auc": 0.7045,
+  "accuracy": 0.6259,
+  "optimal_threshold": 0.82,
+  "feature_cols": [
+    "Return_1d",
+    "Return_5d",
+    "Dist_MA50",
+    "Dist_MA200",
+    "Dist_52w_High",
+    "VIX",
+    "VIX_Change",
+    "Realized_Vol_10d",
+    "Volume_Ratio",
+    "Consec_Down",
+    "RSI",
+    "VIX_Trend_20d",
+    "SP500_Trend_20d",
+    "Dist_Local_Min",
+    "VIX_Ratio",
+    "Phase"
+  ],
+  "v_threshold": 0.05,
+  "forward_days": 60,
+  "classes": {
+    "0": "Non-V",
+    "1": "V-shape"
+  }
+}
