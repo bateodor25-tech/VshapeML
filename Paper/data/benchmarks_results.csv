@@ -1,0 +1,7 @@
+Model,AUC,CI_low,CI_high,Accuracy,F1,CI,Beat_Random
+V5 Ensemble (ours),0.804,0.72,0.88,0.795,0.659,"[0.72, 0.88]",True
+Momentum Signal,0.54,0.431,0.647,0.57,0.435,"[0.431, 0.647]",True
+Combined Rule,0.517,0.427,0.607,0.43,0.488,"[0.427, 0.607]",True
+Yield Curve Signal,0.512,0.42,0.603,0.417,0.488,"[0.42, 0.603]",True
+VIX Spike Signal,0.506,0.397,0.608,0.51,0.393,"[0.397, 0.608]",True
+Random,0.434,0.331,0.534,0.444,0.288,"[0.331, 0.534]",False

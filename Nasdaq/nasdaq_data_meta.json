@@ -1,0 +1,22 @@
+{
+  "ticker": "^IXIC",
+  "v_threshold": 0.08,
+  "forward_days": 60,
+  "frequency": "weekly",
+  "feature_cols": [
+    "Return_1w",
+    "Return_4w",
+    "Dist_MA50",
+    "Dist_MA200",
+    "Dist_52w_High",
+    "Dist_Local_Min",
+    "VIX",
+    "VIX_Ratio",
+    "VIX_Trend_20d",
+    "Realized_Vol_10d",
+    "Volume_Ratio",
+    "RSI",
+    "SP500_Trend_20d",
+    "Phase"
+  ]
+}

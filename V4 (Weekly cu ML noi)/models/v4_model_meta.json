@@ -1,0 +1,34 @@
+{
+  "model_name": "LightGBM",
+  "auc": 0.7637,
+  "accuracy": 0.7285,
+  "optimal_threshold": 0.51,
+  "feature_cols": [
+    "Return_1w",
+    "Return_4w",
+    "Dist_MA50",
+    "Dist_MA200",
+    "Dist_52w_High",
+    "Dist_Local_Min",
+    "VIX",
+    "VIX_Ratio",
+    "VIX_Trend_20d",
+    "Realized_Vol_10d",
+    "Volume_Ratio",
+    "RSI",
+    "SP500_Trend_20d",
+    "Phase"
+  ],
+  "v_threshold": 0.05,
+  "forward_days": 60,
+  "frequency": "weekly",
+  "top3_ensemble": [
+    "LightGBM",
+    "Naive Bayes",
+    "SVM RBF"
+  ],
+  "classes": {
+    "0": "Non-V",
+    "1": "V-shape"
+  }
+}

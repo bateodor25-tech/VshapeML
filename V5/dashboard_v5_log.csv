@@ -1,0 +1,2 @@
+date,sp500,vix,drawdown_pct,yield_curve,credit_spread,fed_rate,p_vshape,signal,crisis_active,weeks_in_crisis,phase
+2026-04-14,6886.24,19.12,0.0,0.59,2.94,3.64,0.0571,NON-V,False,0,1

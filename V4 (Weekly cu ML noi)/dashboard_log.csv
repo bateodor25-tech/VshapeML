@@ -1,0 +1,3 @@
+date,sp500,vix,drawdown_pct,p_vshape,signal,crisis_active,weeks_in_crisis,phase
+2026-04-14,6886.24,19.12,0.0,0.1564,NON-V,False,0,1
+2026-04-14,6886.24,19.12,0.0,0.1564,NON-V,False,0,1
