@@ -98,8 +98,8 @@ The model runs as a live weekly dashboard every Monday morning. It automatically
 
 ```bash
 # Clone repository
-git clone https://github.com/[username]/ml-blackswan.git
-cd ml-blackswan
+git clone https://github.com/bateodor25-tech/VshapeML.git
+cd VshapeML
 
 # Create environment
 conda create -n thesis_portfolio python=3.10
